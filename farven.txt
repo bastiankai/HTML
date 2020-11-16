@@ -1,0 +1,37 @@
+Farben
+
+#RRGGBB mit 0-9 + A-F (10 bis 15)
+
+FF in hexadezimal = 255 in dezimal
+15 * 16^0 + 15 * 16^1
+15 + 240 = 255
+
+-----
+dual vs. dezimal
+1010 = 0 * 2^0 + 1 * 2^1 + 0 * 2^2 + 1 * 2^3
+2 + 8 = 10
+-----
+
+#000000 = schwarz (kurz #000)
+#FFFFFF = weiß (kurz #FFF)
+#FF0000 = rot (kurz #F00)
+#00FF00 = grün (kurz #0F0)
+#0000FF = blau (kurz #00F)
+#FFFF00 = gelb (kurz #FF0)
+#CCCCCC = "ein grau" (kurz #CCC)
+
+#112233 #123 | aber #123456 nicht kürzbar
+kurz: 4096 Farben (16^3)
+
+sonst: 16,7 Mill. (16^6 = 2^24 = 256 * 256 * 256)
+
+rot: rgb(255,0,0) | blau: rgb(0,0,255)
+
+Umrechnung:
+dez hex
+R 102 66
+G 95 5F
+B 233 E9
+
+#665FE9 ODER rgb(102,95,233)
+rgba(102,95,233,0.8) | RGB + Deckkraft (opacity) 0-1
