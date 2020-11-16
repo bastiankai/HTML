@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="22.1">
+    <meta>
+        <filters directoryPatterns="" filePatterns="\QProject%201.xpr\E" positiveFilePatterns="" showHiddenFiles="false"/>
+        <options/>
+    </meta>
+    <projectTree name="Project%201.xpr">
+        <folder path="."/>
+        <file name="farven.txt"/>
+        <file name="formate.css"/>
+        <file name="seite.html"/>
+        <file name="../../../../../Software/steamapps/common/Paladins/Binaries/EasyAntiCheat/Launcher/Untitled.html"/>
+    </projectTree>
+</project>
