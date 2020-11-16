@@ -2,13 +2,22 @@
 <project version="22.1">
     <meta>
         <filters directoryPatterns="" filePatterns="\QProject%201.xpr\E" positiveFilePatterns="" showHiddenFiles="false"/>
-        <options/>
+        <options>
+            <serialized version="22.1" xml:space="preserve">
+                <serializableOrderedMap>
+                    <entry>
+                        <String>enable.project.master.files.support</String>
+                        <Boolean>true</Boolean>
+                    </entry>
+                </serializableOrderedMap>
+            </serialized>
+        </options>
     </meta>
     <projectTree name="Project%201.xpr">
         <folder path="."/>
         <file name="farven.txt"/>
-        <file name="formate.css"/>
-        <file name="seite.html"/>
+        <file name="index.html"/>
+        <file name="styles.css"/>
         <file name="../../../../../Software/steamapps/common/Paladins/Binaries/EasyAntiCheat/Launcher/Untitled.html"/>
     </projectTree>
 </project>
