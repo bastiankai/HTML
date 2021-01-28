@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background: #55d6aa;
+    background: #6c84d4;
 }
 
 header::after{
@@ -37,14 +37,38 @@ nav ul {
 }
 
 nav li {
-    float:left;
-    margin-left: 75px;
-    padding-top: 25px;
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 40px;
+
+    position: relative;
 }
 
 nav a{
-color: #444;
+color: rgb(128, 0, 0);
 text-decoration: none;
 text-transform: uppercase;
+font-size: medium;
     
+}
+
+nav a:hover {
+    color: #000;
+}
+
+nav a::before {
+    content: "";
+    display: block;
+    height: 5px;
+    background-color: #400;
+
+    position: absolute;
+    top: 0;
+    width: 0%;
+
+    transition: all ease-in-out 250ms
+}
+
+nav a:hover::before {
+    width:100%;
 }
