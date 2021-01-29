@@ -115,7 +115,6 @@ nav a:hover::before {
 
 form .submit{
     background: red;
-    background-color: solid #fff;
     color: #fff;
     font-size: 20px;
     font-weight: bold;
