@@ -183,3 +183,38 @@ input[name="r"]{
 #r3:checked ~ .s1{
     margin-left: -40%;
 }
+
+
+.table-box{
+    margin: 50px auto;
+}
+.table-row
+{
+    display: table;
+    width: 80%;
+    margin:10px auto;
+    font-family: sans-serif;
+    background: transparent;
+    padding: 12px 0;
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    box-shadow: 0 1px 4px 0 rgba(255, 255, 255, 0.3) ;
+}
+
+.table-cell{
+    display: table-cell;
+    width: 30%;
+    text-align: center;
+    padding: 4px 0;
+    border-right: 1px solid #fff;
+    vertical-align: middle ;
+}
+
+.table-head{
+    background-color: purple;
+    font-weight: 1000;
+} 
+
+.table-head .table-cell {
+    border-right: none;
+}
