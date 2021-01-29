@@ -1,9 +1,17 @@
 body {
     margin: 0;
-    background: #222;
+    background: rgb(30, 44, 73);
     font-family: 'Work Sans', sans-serif;
     font-weight: 300;
+    text-align: center;
 }
+
+.kontakt-text {
+    margin-top: 100px;
+    color: #fff;
+    text-transform: uppercase;
+    
+}   
 
 .container {
     width: 80%;
