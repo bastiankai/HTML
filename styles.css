@@ -115,7 +115,7 @@ nav a:hover::before {
 
 form .submit{
     background: red;
-    background-color: solid;
+    background-color: solid #fff;
     color: #fff;
     font-size: 20px;
     font-weight: bold;
@@ -241,7 +241,7 @@ p{
 
 .introtext{
     margin: 80px 130px;
-    color: rgb(214, 0, 0);
+    color: rgb(0, 243, 93);
 }
 
 .introtext h1{
