@@ -218,3 +218,35 @@ input[name="r"]{
 .table-head .table-cell {
     border-right: none;
 }
+
+body {
+    margin:1;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+h1{
+    font-family: 'Cormorant Infant',serif;
+    font-weight:70;
+    font-size:75px;
+    margin:1;
+    color: oldlace;
+}
+
+p{
+    line-height: 1.75;
+    color:orange
+}
+
+
+.introtext{
+    margin: 80px 130px;
+    color: rgb(214, 0, 0);
+}
+
+.introtext h1{
+    font-size: 65px;
+    margin-bottom: 30px ;
+    color: rgb(214, 0, 0);
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
